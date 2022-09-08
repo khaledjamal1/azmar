@@ -16,8 +16,7 @@ const Nav = () => {
   ];
 
   return (
-    <Navbar variant="sticky" color="black" maxWidth={'fluid'}>
-      <Navbar.Toggle showIn="xs" />
+    <Navbar variant="sticky" maxWidth={'fluid'}>
       <Navbar.Brand
         css={{
           '@xl': {
@@ -26,10 +25,11 @@ const Nav = () => {
         }}
       >
         <Image src={logo} alt="logo" />
-        <Text b color="inherit" hideIn="xs" size={'large'}>
+        <Text b hideIn="xs" size={'large'}>
           Azmar Airlines
         </Text>
       </Navbar.Brand>
+      <Navbar.Toggle showIn="xs" />
       <Navbar.Content
         enableCursorHighlight
         activeColor="warning"
@@ -39,6 +39,7 @@ const Nav = () => {
           '@xl': {
             fontWeight: '$extrabold',
             fontSize: '$lg',
+          
           },
         }}
       >
@@ -53,7 +54,7 @@ const Nav = () => {
         </Navbar.Link>
       </Navbar.Content>
 
-      <Navbar.Collapse disableAnimation>
+      <Navbar.Collapse>
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem
             key={item}

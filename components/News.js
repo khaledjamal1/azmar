@@ -1,4 +1,4 @@
-import { Card, Col, Text } from '@nextui-org/react';
+import { Button, Card, Col, Text } from '@nextui-org/react';
 import React from 'react';
 import acc from '../public/acc.jpg';
 const News = () => {
@@ -28,6 +28,7 @@ const News = () => {
           alt="Card image background"
         />
       </Card>
+      
     </div>
   );
 };

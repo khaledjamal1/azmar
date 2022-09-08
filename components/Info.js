@@ -5,39 +5,26 @@ import { AiFillCustomerService } from 'react-icons/ai';
 import { Button, Card, Col, Grid, Row, Text } from '@nextui-org/react';
 import { motion, useScroll } from 'framer-motion';
 const Info = () => {
-  const { scrollYProgress } = useScroll();
-  const cardVariants = {
-    offscreen: {
-      y: 300,
-    },
-    onscreen: {
-      y: 50,
-      rotate: -10,
-      transition: {
-        type: 'spring',
-        bounce: 0.4,
-        duration: 0.8,
-      },
-    },
-  };
   return (
-    <motion.div
-      initial={{ x: '-100vw' }}
-      whileInView={{ x: 0 }}
-      viewport={{ once: false }}
-      transition={{ ease: 'easeInOut', bounce: 1 }}
-      className="w-screen h-full pt-10"
-    >
-      <div className="flex flex-col justify-center items-center">
+    <div className="w-screen h-full mt-20 mb-20">
+      <motion.div
+        initial={{ x: '-100vw' }}
+        whileInView={{ x: 0 }}
+        viewport={{ once: false }}
+        transition={{ ease: 'easeInOut', bounce: 1 }}
+        className="flex flex-col justify-center items-center"
+      >
         <h1 className="text-cyan-600 font-bold text-xl">WHAT WE DO</h1>
         <h1 className=" font-bold text-4xl">Our Services Include</h1>
-      </div>
-      <motion.div initial={{ x: '-100vw' }}
-      whileInView={{ x: 0 }}
-      viewport={{ once: false }}
-      transition={{ ease: 'easeInOut', bounce: 1 }}
-       className="grid place-content-center sm:grid-cols-4 grid-cols-1  h-full p-10 gap-5 ">
-        <Card css={{ w: '100%', h: '400px', m: 5 }}>
+        
+      </motion.div>
+      <motion.div
+        initial={{ x: '-100vw' }}
+        whileInView={{ x: 0 }}
+        viewport={{ once: false }}
+        className="grid place-content-evenly sm:grid-cols-4 grid-cols-1  h-full p-10 gap-5 "
+      >
+        <Card css={{ w: '100%', h: '400px', m: 5 }} isHoverable>
           <Card.Header css={{ position: 'absolute', zIndex: 1, top: 5 }}>
             <Col>
               <Text
@@ -94,7 +81,7 @@ const Info = () => {
           </Card.Footer>
         </Card>
 
-        <Card css={{ w: '100%', h: '400px', m: 5 }}>
+        <Card css={{ w: '100%', h: '400px', m: 5 }} isHoverable>
           <Card.Header css={{ position: 'absolute', zIndex: 1, top: 5 }}>
             <Col>
               <Text
@@ -151,7 +138,7 @@ const Info = () => {
           </Card.Footer>
         </Card>
 
-        <Card css={{ w: '100%', h: '400px', m: 5 }}>
+        <Card css={{ w: '100%', h: '400px', m: 5 }} isHoverable>
           <Card.Header css={{ position: 'absolute', zIndex: 1, top: 5 }}>
             <Col>
               <Text
@@ -208,7 +195,7 @@ const Info = () => {
           </Card.Footer>
         </Card>
 
-        <Card css={{ w: '100%', h: '400px', m: 5 }}>
+        <Card css={{ w: '100%', h: '400px', m: 5 }} isHoverable>
           <Card.Header css={{ position: 'absolute', zIndex: 1, top: 5 }}>
             <Col>
               <Text
@@ -265,7 +252,7 @@ const Info = () => {
           </Card.Footer>
         </Card>
       </motion.div>
-    </motion.div>
+    </div>
   );
 };
 
