@@ -38,7 +38,7 @@ const ContactForm = () => {
         />
       </div>
       <div className='flex w-full h-full place-content-center '>
-        <Button>send</Button>
+        <Button>send Email</Button>
       </div>
     </div>
   );
