@@ -18,7 +18,7 @@ const Partners = () => {
           OUR PARTNERS
         </h1>
         <h1 className=" font-bold text-4xl text-center">
-          Our Services Include
+          Our Partners Include
         </h1>
       </div>
 
