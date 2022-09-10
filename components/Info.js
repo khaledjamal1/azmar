@@ -7,19 +7,12 @@ import { motion, useScroll } from 'framer-motion';
 const Info = () => {
   return (
     <div className="w-screen h-full mt-20 mb-20">
-      <motion.div
-        initial={{ x: '-100vw' }}
-        whileInView={{ x: 0 }}
-        viewport={{ once: false }}
-        transition={{ ease: 'easeInOut', bounce: 1 }}
-        className="flex flex-col justify-center items-center"
-      >
+      <div className="flex flex-col justify-center items-center">
         <h1 className="text-cyan-600 font-bold text-xl">WHAT WE DO</h1>
         <h1 className=" font-bold text-4xl">Our Services Include</h1>
-        
-      </motion.div>
+      </div>
       <motion.div
-        initial={{ x: '-100vw' }}
+        initial={{ x: '-50vw' }}
         whileInView={{ x: 0 }}
         viewport={{ once: false }}
         className="grid place-content-evenly sm:grid-cols-4 grid-cols-1  h-full p-10 gap-5 "
@@ -42,6 +35,7 @@ const Info = () => {
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
+              showSkeleton
               src="https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               width="100%"
               height="100%"
@@ -61,12 +55,7 @@ const Info = () => {
           >
             <Col>
               <Row justify="flex-end">
-                <Button
-                  flat
-                  auto
-                  rounded
-                  css={{ color: '#94f9f0', bg: '#94f9f026' }}
-                >
+                <Button flat auto rounded color={'gradient'}>
                   <Text
                     css={{ color: 'inherit' }}
                     size={12}
@@ -99,6 +88,7 @@ const Info = () => {
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
+              showSkeleton
               src="https://azmarairstorage.blob.core.windows.net/root/root/images/111132019_SERVAIR-Vehicle.jpg"
               width="100%"
               height="100%"
@@ -118,12 +108,7 @@ const Info = () => {
           >
             <Col>
               <Row justify="flex-end">
-                <Button
-                  flat
-                  auto
-                  rounded
-                  css={{ color: '#94f9f0', bg: '#94f9f026' }}
-                >
+                <Button flat auto rounded color={'gradient'}>
                   <Text
                     css={{ color: 'inherit' }}
                     size={12}
@@ -150,13 +135,14 @@ const Info = () => {
                 <FaPlane />
               </Text>
               <Text h3 color="black" weight={'bold'}>
-                Customer Care
+                Training
               </Text>
             </Col>
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
-              src="https://images.pexels.com/photos/63991/pexels-photo-63991.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              showSkeleton
+              src="https://scontent.fisu6-2.fna.fbcdn.net/v/t39.30808-6/299747539_830788401622911_4083274787300582680_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=LIwfdiMxaHUAX_5_ce6&_nc_ht=scontent.fisu6-2.fna&oh=00_AT9QVqTpNi6kyV1byMTYVzTShai8KOrZ0efP-TjvQcStaQ&oe=63215294"
               width="100%"
               height="100%"
               objectFit="cover"
@@ -175,12 +161,7 @@ const Info = () => {
           >
             <Col>
               <Row justify="flex-end">
-                <Button
-                  flat
-                  auto
-                  rounded
-                  css={{ color: '#94f9f0', bg: '#94f9f026' }}
-                >
+                <Button flat auto rounded color={'gradient'}>
                   <Text
                     css={{ color: 'inherit' }}
                     size={12}
@@ -213,6 +194,7 @@ const Info = () => {
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
+              showSkeleton
               src="https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               width="100%"
               height="100%"
@@ -232,12 +214,7 @@ const Info = () => {
           >
             <Col>
               <Row justify="flex-end">
-                <Button
-                  flat
-                  auto
-                  rounded
-                  css={{ color: '#94f9f0', bg: '#94f9f026' }}
-                >
+                <Button flat auto rounded color={'gradient'}>
                   <Text
                     css={{ color: 'inherit' }}
                     size={12}

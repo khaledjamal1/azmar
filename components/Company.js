@@ -13,7 +13,7 @@ const Company = () => {
       </div>
       <div className="sm:flex sm:justify-around  mb-20 ">
         <motion.div
-          className="sm:w-1/2  pt-10 pb-5 rounded-lg overflow-hidden drop-shadow-2xl shadow-black "
+          className="sm:w-1/2  mt-20 pb-5 rounded-3xl overflow-hidden drop-shadow-2xl shadow-black "
           whileInView={{ x: 0, rotate: -7 }}
           viewport={{ once: false }}
           transition={{ ease: 'easeInOut', duration: 1.5, bounce: 1 }}

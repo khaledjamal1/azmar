@@ -7,14 +7,16 @@ import Info from '../components/Info';
 import News from '../components/News';
 import Company from '../components/Company';
 import ContactForm from '../components/ContactForm';
+import Partners from '../components/Partners';
 export default function Home() {
   return (
-    <div >
+    <div>
       <Hero />
       <br />
       <br />
       <Info />
       <Company />
+      <Partners />
       <ContactForm />
     </div>
   );
