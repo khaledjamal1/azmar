@@ -12,14 +12,15 @@ export const useMediaQuery = (width) => {
   }, []);
   React.useEffect(() => {
     const media = window.matchMedia(`(max-width: ${width}px)`);
-    media.addListener(updateTarget);
+    media.addEventListener(updateTarget);
 
     // Check on mount (callback is not called until a change occurs)
     if (media.matches) {
       setTargetReached(true);
     }
 
-    return () => media.removeListener(updateTarget);
+    return () => media.removeEventListener(updateTarget);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return targetReached;
