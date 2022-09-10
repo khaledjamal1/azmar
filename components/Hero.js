@@ -16,7 +16,7 @@ const Hero = () => {
       <motion.div
         animate={{ x: 0 }}
         initial={{ x: -400 }}
-        transition={{ ease: 'easeOut', duration: 2 }}
+        transition={{ ease: 'easeInOut', duration: 2 }}
         className="absolute mx-auto sm:top-[65%] top-[60%] "
       >
         <div className=" bg-white rounded-br-3xl w-[300px] sm:w-[900px] bg-opacity-50 backdrop-blur-sm flex justify-center flex-col items-center">
