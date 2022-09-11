@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         prime: '#8758FF',
         text: '#8758FF',
-        back: '#16213E',
+        back: '#F2F2F2',
         btn: '#5CB8E4',
       },
     },
