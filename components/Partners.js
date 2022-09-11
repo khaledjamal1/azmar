@@ -12,9 +12,9 @@ import { useMediaQuery } from './useMediaQuery.js';
 const Partners = () => {
   const isMd = useMediaQuery(960);
   return (
-    <div className="py-20 bg-bl">
+    <div className="py-20 ">
       <div className="pb-20">
-        <h1 className="text-cyan-600 font-bold text-2xl text-center">
+        <h1 className="text-text font-bold text-2xl text-center">
           OUR PARTNERS
         </h1>
         <h1 className=" font-bold text-4xl text-center">
@@ -22,7 +22,7 @@ const Partners = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap place-content-around w-full h-full sm:flex-row flex-col">
+      <div className="flex flex-wrap place-content-around w-full h-full sm:flex-row flex-col ">
         <Image
           src={iraqi}
           alt="..."
@@ -37,6 +37,7 @@ const Partners = () => {
           height={isMd ? 140 : 220}
           width={isMd ? 180 : 220}
           objectFit="fill"
+          style={{ fill: 'yellow' }}
         />
 
         <Image

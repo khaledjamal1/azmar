@@ -16,7 +16,13 @@ const Nav = () => {
   ];
 
   return (
-    <Navbar variant="sticky" maxWidth={'fluid'}>
+    <Navbar
+      variant="static"
+      maxWidth={'fluid'}
+      css={{ bgColor: '#0F3460' }}
+      disableBlur
+      disableShadow
+    >
       <Navbar.Brand
         css={{
           '@xl': {
@@ -25,9 +31,7 @@ const Nav = () => {
         }}
       >
         <Image src={logo} alt="logo" />
-        <Text b hideIn="xs" size={'large'}>
-          Azmar Airlines
-        </Text>
+       
       </Navbar.Brand>
       <Navbar.Toggle showIn="xs" />
       <Navbar.Content
@@ -37,18 +41,18 @@ const Nav = () => {
         variant="highlight"
         css={{
           '@xl': {
-            fontWeight: '$extrabold',
             fontSize: '$lg',
-          
           },
         }}
       >
-        <Navbar.Link href="#">Home</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Catering</Navbar.Link>
-        <Navbar.Link href="#">Azmar Holiday</Navbar.Link>
-        <Navbar.Link href="#">NEWS</Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+          Home
+        </Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>Services</Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>Catering</Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>Azmar Holiday</Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>NEWS</Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>About</Navbar.Link>
         <Navbar.Link isActive href="#">
           Contact
         </Navbar.Link>
