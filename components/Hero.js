@@ -9,7 +9,7 @@ import bg from '../public/bg.png';
 const Hero = () => {
   return (
     <section>
-      <div className=" text-white  flex h-screen ">
+      <div className=" text-white  flex sm:h-screen ">
         <div className="container mx-auto flex flex-col-reverse md:flex-row items-center my-12 md:my-24">
           <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
             <h1 className="text-3xl md:text-5xl p-2 text-text tracking-loose">
