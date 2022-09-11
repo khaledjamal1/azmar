@@ -14,6 +14,7 @@ const ContactForm = () => {
           animated
           rounded
           fullWidth
+          color='secondary'
         />
         <Spacer y={2} />
         <Input
@@ -24,6 +25,7 @@ const ContactForm = () => {
           animated
           rounded
           fullWidth
+          color='secondary'
         />
         <Spacer y={2} />
         <Textarea
@@ -33,6 +35,8 @@ const ContactForm = () => {
           animated
           rounded
           fullWidth
+          color='secondary'
+          
         />
       </div>
       <div className="flex w-full h-full place-content-center ">

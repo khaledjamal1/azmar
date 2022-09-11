@@ -31,12 +31,11 @@ const Nav = () => {
         }}
       >
         <Image src={logo} alt="logo" />
-       
       </Navbar.Brand>
       <Navbar.Toggle showIn="xs" />
       <Navbar.Content
         enableCursorHighlight
-        activeColor="warning"
+        activeColor="primary"
         hideIn="xs"
         variant="highlight"
         css={{
@@ -48,11 +47,21 @@ const Nav = () => {
         <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
           Home
         </Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>Services</Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>Catering</Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>Azmar Holiday</Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>NEWS</Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>About</Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+          Services
+        </Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+          Catering
+        </Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+          Azmar Holiday
+        </Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+          NEWS
+        </Navbar.Link>
+        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+          About
+        </Navbar.Link>
         <Navbar.Link isActive href="#">
           Contact
         </Navbar.Link>
@@ -62,18 +71,15 @@ const Nav = () => {
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem
             key={item}
-            activeColor="warning"
-            css={{
-              color: index === collapseItems.length - 1 ? '$error' : '',
-            }}
-            isActive={index === 2}
+            activeColor="primary"
+            isActive={index === 7}
           >
             <Link
               color="inherit"
               css={{
                 minWidth: '100%',
               }}
-              href="#"
+              href={item}
             >
               {item}
             </Link>

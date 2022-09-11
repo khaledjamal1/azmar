@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.10",
+    "@splidejs/react-splide": "^0.7.10",
     "framer-motion": "^7.3.2",
     "next": "12.2.5",
     "react": "18.2.0",

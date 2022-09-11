@@ -20,8 +20,8 @@ const Info = () => {
       </div>
       <div>
         <div className=" ">
-          <div className="container mx-auto py-20 lg:px-12 sm:px-5 h-full">
-            <div className="grid lg:grid-cols-4 gap-6">
+          <div className="container mx-auto py-20 lg:px-12 sm:px-5 h-full ">
+            <div className="grid lg:grid-cols-4 gap-6 px-3 sm:px-0">
               <div className ="p-3 bg-prime shadow rounded-lg px-5 py-6 flex flex-col gap-2 ">
                 <Image
                   src={airport}

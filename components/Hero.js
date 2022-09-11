@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import React from 'react';
 import hero from '../public/hero.jpg';
 import { motion } from 'framer-motion';
 import { Button } from '@nextui-org/react';
+import com from '../public/com.jpg';
 const Hero = () => {
   return (
     <section>
@@ -16,7 +19,9 @@ const Hero = () => {
               The sole handling company in Iraq
             </h2>
 
-            <Button bordered shadow>Contact</Button>
+            <Button bordered shadow>
+              Contact
+            </Button>
           </div>
           <div className="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
             <div className="h-48 flex flex-wrap content-center">
@@ -26,6 +31,7 @@ const Hero = () => {
                   src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png"
                 />
               </div>
+             
               <div>
                 <img
                   className="inline-block mt-24 md:mt-0 p-8 md:p-0"
