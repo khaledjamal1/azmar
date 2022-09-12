@@ -44,22 +44,22 @@ const Nav = () => {
           },
         }}
       >
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+        <Navbar.Link href="/" itemCss={{ fontWeight: '$semibold' }}>
           Home
         </Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+        <Navbar.Link href="services" itemCss={{ fontWeight: '$semibold' }}>
           Services
         </Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+        <Navbar.Link href="catering" itemCss={{ fontWeight: '$semibold' }}>
           Catering
         </Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+        <Navbar.Link href="holiday" itemCss={{ fontWeight: '$semibold' }}>
           Azmar Holiday
         </Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+        <Navbar.Link href="NEWS" itemCss={{ fontWeight: '$semibold' }}>
           NEWS
         </Navbar.Link>
-        <Navbar.Link href="#" itemCss={{ fontWeight: '$semibold' }}>
+        <Navbar.Link href="about" itemCss={{ fontWeight: '$semibold' }}>
           About
         </Navbar.Link>
         <Navbar.Link isActive href="#">

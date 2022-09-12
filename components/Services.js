@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import { FaPlane } from 'react-icons/fa';
+
 import { GiCargoCrate, GiFoodTruck } from 'react-icons/gi';
 import { AiFillCustomerService } from 'react-icons/ai';
 import { Button, Card, Col, Grid, Row, Text } from '@nextui-org/react';
