@@ -12,6 +12,7 @@ const News = () => {
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+    
     >
       <SplideSlide>
         <div className="bg-prime lg:flex-row flex-col-reverse flex w-full h-full ">

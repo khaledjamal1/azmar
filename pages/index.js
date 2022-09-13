@@ -13,7 +13,7 @@ export default function Home() {
       <br />
       <br />
       <Services />
-      <Card title={'sdsd'} content={'asfasfsdfsdf'} />
+
       <News />
       <Partners />
       <ContactForm />
