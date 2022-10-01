@@ -1,13 +1,3 @@
 
 @tailwind components;
 @tailwind utilities;
-#gradient-canvas {
-    width:100%;
-    height:100%;
-    --gradient-color-1: #34a853; 
-    --gradient-color-2: #06070d; 
-    --gradient-color-3: #06070d;  
-    --gradient-color-4: #06070d;
-  
-    
-  }
