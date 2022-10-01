@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        prime: '#8758FF',
-        text: '#8758FF',
-        back: '#F2F2F2',
-        btn: '#5CB8E4',
+        prime: '#34a853',
+        text: '#F8F8F8',
+        back: '#15191E',
+        btn: '#34a853',
       },
     },
   },

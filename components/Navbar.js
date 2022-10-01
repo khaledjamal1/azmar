@@ -17,11 +17,16 @@ const Nav = () => {
 
   return (
     <Navbar
-      variant="static"
+      variant="floating"
       maxWidth={'fluid'}
-      css={{ bgColor: '#0F3460' }}
+      css={{ bgColor: 'transparent'}}
+      containerCss={{bgColor: '#15191E'}}
       disableBlur
+    shouldHideOnScroll={true}
+    
       disableShadow
+   
+      
     >
       <Navbar.Brand
         css={{

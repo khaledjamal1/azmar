@@ -5,44 +5,44 @@ const ContactForm = () => {
   return (
     <div className="pt-20 pb-20 ">
       <h1 className="text-text font-bold text-2xl text-center">CONTACT US</h1>
-      <div className="flex-col place-content-center w-full p-10 ">
+      <div className="flex-col place-content-center place-items-center w-[90vw] p-10 mt-10  bg-back rounded-2xl">
         <Input
-          labelPlaceholder="Name"
+          label="Name"
           type={'text'}
-          width={10}
+         
           bordered
           animated
-          rounded
+          
           fullWidth
-          color='secondary'
+          color='primary'
         />
         <Spacer y={2} />
         <Input
-          labelPlaceholder="Email"
+          label="Email"
           type={'email'}
-          width={10}
+         
           bordered
           animated
-          rounded
+          
           fullWidth
-          color='secondary'
+          color='primary'
         />
         <Spacer y={2} />
         <Textarea
-          placeholder="Type your email"
-          width={10}
+         label="Type your email"
+         
           bordered
           animated
-          rounded
+          
           fullWidth
-          color='secondary'
+          color='primary'
           
         />
       </div>
-      <div className="flex w-full h-full place-content-center ">
+      <div className="flex w-full h-full place-content-center mt-10">
         <Button
         size={'xl'}
-          rounded
+          
           shadow
           bordered
           icon={<MdOutgoingMail fill="currentColor" filled size={35}/>}

@@ -5,7 +5,7 @@ import News from '../components/News';
 const CATERING = () => {
   return (
     <>
-      <News />
+    
       <div className="flex h-full w-full place-content-center place-items-center mt-[10vh] flex-col">
         <h1 className="text-center text-6xl flex">CATERING</h1>
         <div className="w-[80vw] h-full grid  gap-10 px-5 mt-[10vh] ">

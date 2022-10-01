@@ -8,24 +8,24 @@ function MyApp({ Component, pageProps }) {
     theme: {
       colors: {
         // brand colors
-        primaryLight: '#5CB8E4',
-        primaryLightHover: '#5CB8E4',
-        primaryLightActive: '#5CB8E4',
-        primaryLightContrast: '#533483',
-        primary: '#5CB8E4',
-        primaryBorder: '#16213E',
-        primaryBorderHover: '#0F3460',
-        primarySolidHover: '#16213E',
-        primarySolidContrast: '#533483',
-        primaryShadow: '#16213E',
-        background: '#181818',
-        text: '#F2F2F2',
+        primaryLight: '#34a853',
+        primaryLightHover: '#F8F8F8',
+        primaryLightActive: '#F8F8F8',
+        primaryLightContrast: '#F8F8F8',
+        primary: '#34a853',
+        primaryBorder: '#F8F8F8',
+        primaryBorderHover: '#F8F8F8',
+        primarySolidHover: '#F8F8F8',
+        primarySolidContrast: '#F8F8F8',
+        primaryShadow: '#34a853',
+        background: '#06070d ',
+        text: '#F8F8F8',
         gradient:
           'linear-gradient(112deg, $blue100 -25%, $pink500 -10%, $purple500 80%)',
         link: '#fca311',
 
         // you can also create your own color
-        myColor: '#0F3460',
+        myColor: '#34a853',
 
         // ...  more colors
       },

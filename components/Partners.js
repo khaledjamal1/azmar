@@ -14,7 +14,7 @@ const Partners = () => {
   return (
     <div className="py-20 ">
       <div className="pb-20">
-        <h1 className="text-text font-bold text-2xl text-center">
+        <h1 className="text-prime font-bold text-2xl text-center">
           OUR PARTNERS
         </h1>
         <h1 className=" font-bold text-4xl text-center">

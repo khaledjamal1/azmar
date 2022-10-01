@@ -8,15 +8,18 @@ import { Card } from '@nextui-org/react';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Hero />
+
       <br />
       <br />
       <Services />
 
       <News />
       <Partners />
-      <ContactForm />
-    </div>
+      <div className="h-full w-full flex place-content-center place-items-center">
+        <ContactForm />
+      </div>
+    </>
   );
 }
