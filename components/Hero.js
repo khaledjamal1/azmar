@@ -44,13 +44,13 @@ const Hero = () => {
               Contact
             </Button>
           </div>
-          <div className=" w-[100%] z-30">
+          <div className=" w-[100%] z-40">
             <Image src={bg} alt="" layout="responsive" />
           </div>
         </div>
       </div>
 
-      <div className=" md:w-[70%] w-full absolute z-30 md:top-[150px] top-[3.5%] md:left-[33%]">
+      <div className=" md:w-[70%] w-full absolute z-30 md:top-[10px] top-[3.5%] md:left-[33%]">
         <Image src={clouds2} alt="" layout="responsive" />
       </div>
     </section>
