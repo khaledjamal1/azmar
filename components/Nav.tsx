@@ -21,7 +21,7 @@ const Nav = () => {
     setNav(!nav);
   };
   return (
-    <div className="flex justify-between items-center max-w-full  shadow-md px-5 py-3 mx-auto sticky top-0 z-50 ">
+    <div className="flex justify-between items-center max-w-full  shadow-md px-5 py-3 mx-auto sticky top-0 z-50 bg-slate-100">
       <a href="/">
         <Image src={logo} alt="logo" height={30} width={90} />
       </a>

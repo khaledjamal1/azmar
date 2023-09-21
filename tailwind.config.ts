@@ -52,6 +52,9 @@ module.exports = {
           foreground: 'hsl(var(--card-foreground))',
         },
       },
+      backgroundImage: {
+        'hero-image': "url('/img/hero.jpg')",
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
