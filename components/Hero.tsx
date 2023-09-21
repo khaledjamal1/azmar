@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import { Button } from './ui/button';
+
 const Hero = () => {
   return (
     <section className="relative bg-hero-image bg-cover bg-center bg-no-repeat">
@@ -7,27 +10,19 @@ const Hero = () => {
         <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
             The sole handling company in Iraq
-            <strong className="block font-extrabold text-green-700">
+            <strong className="block font-extrabold text-red-700">
               Azmar Air Handling
             </strong>
           </h1>
 
-        
-
           <div className="mt-8 flex flex-wrap gap-4 text-center">
-            <a
-              href="#"
-              className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
-            >
-             Services
-            </a>
+            <Link href="#">
+              <Button className='px-10'>Services</Button>
+            </Link>
 
-            <a
-              href="#"
-              className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-            >
-             NEWS
-            </a>
+            <Link href="#">
+              <Button variant={'outline'} className='px-10'>NEWS</Button>
+            </Link>
           </div>
         </div>
       </div>

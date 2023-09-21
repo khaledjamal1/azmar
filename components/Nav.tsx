@@ -39,7 +39,7 @@ const Nav = () => {
       <div
         className={
           nav
-            ? 'fixed bg-green-50   h-full left-0 top-0  w-[60%] z-[100] ease-in-out duration-500 pt-20'
+            ? 'fixed bg-red-50   h-full left-0 top-0  w-[60%] z-[100] ease-in-out duration-500 pt-20'
             : 'fixed  h-full left-[-100%] top-0  w-[60%] z-10 ease-in-out duration-500 '
         }
       >
